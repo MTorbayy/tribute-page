@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500;700;900&family=Teko:wght@300;600&display=swap');
+
+main {
+  background: #ededed;
+  color: #333333;
+  text-align: center;
+  font-family: 'roboto', sans-serif;
+  border-radius: 5px;
+  padding-bottom: 20px;
+  margin-bottom: 30px;
+
+}
+
+#title {
+  padding-top: 60px;
+  font-size: 2.6rem;
+}
+
+#sous-titre {
+  padding-bottom: 20px;
+  font-size: 1.3rem;
+}
+  
+#img-caption {
+  font-size: 1.2rem;
+  max-width: 50%;
+  margin: 10px auto 0 auto;
+} 
+
+#img-div {
+  display: block;
+  margin: 0 auto 0 auto;
+  width: 70%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background: #d49625;
+  border-radius: 5px;
+}
+
+#resume {
+  font-size: 1.2rem;
+  width: 70%;
+  margin: 30px auto 30px auto;
+  text-align: left;
+}
+
+ul {
+  font-size: 1.2rem;
+  max-width: 40%;
+  margin: 80px auto 50px auto;
+}
+
+li {
+  text-align: left;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+blockquote {
+  font-size: 1.2rem;
+  padding-top: 10px;
+  width: 70%;
+  margin: 0 auto 0 auto;
+  font-style: italic;
+}
+
+
+@media (max-width: 700px) {
+    img {
+    max-width: 100%;
+  }
+}
